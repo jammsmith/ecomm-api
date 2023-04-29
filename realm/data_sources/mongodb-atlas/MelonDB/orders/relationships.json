@@ -1,0 +1,26 @@
+{
+    "customer": {
+        "ref": "#/relationship/mongodb-atlas/MelonDB/users",
+        "source_key": "customer",
+        "foreign_key": "user_id",
+        "is_list": false
+    },
+    "delivery": {
+        "ref": "#/relationship/mongodb-atlas/MelonDB/deliveries",
+        "source_key": "delivery",
+        "foreign_key": "delivery_id",
+        "is_list": false
+    },
+    "orderItems": {
+        "ref": "#/relationship/mongodb-atlas/MelonDB/orderitems",
+        "source_key": "orderItems",
+        "foreign_key": "orderItem_id",
+        "is_list": true
+    },
+    "refunds": {
+        "ref": "#/relationship/mongodb-atlas/MelonDB/refunds",
+        "source_key": "refunds",
+        "foreign_key": "refund_id",
+        "is_list": true
+    }
+}

@@ -1,0 +1,35 @@
+{
+    "properties": {
+        "_id": {
+            "bsonType": "objectId"
+        },
+        "category_id": {
+            "bsonType": "string"
+        },
+        "description": {
+            "bsonType": "string"
+        },
+        "image": {
+            "bsonType": "string"
+        },
+        "name": {
+            "bsonType": "string"
+        },
+        "path": {
+            "bsonType": "string"
+        },
+        "products": {
+            "bsonType": "array",
+            "items": {
+                "bsonType": "string"
+            }
+        },
+        "subCategories": {
+            "bsonType": "array",
+            "items": {
+                "bsonType": "string"
+            }
+        }
+    },
+    "title": "Category"
+}

@@ -1,0 +1,15 @@
+{
+  "name": "realm",
+  "version": "1.0.0",
+  "description": "Realm API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "James Smith",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "1.2.0",
+    "qs": "^6.11.1"
+  }
+}

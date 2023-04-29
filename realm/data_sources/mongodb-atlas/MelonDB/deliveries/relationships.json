@@ -1,0 +1,8 @@
+{
+    "address": {
+        "ref": "#/relationship/mongodb-atlas/MelonDB/addresses",
+        "source_key": "address",
+        "foreign_key": "address_id",
+        "is_list": false
+    }
+}

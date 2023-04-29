@@ -1,0 +1,38 @@
+{
+    "properties": {
+        "_id": {
+            "bsonType": "objectId"
+        },
+        "addresses": {
+            "bsonType": "array",
+            "items": {
+                "bsonType": "string"
+            }
+        },
+        "email": {
+            "bsonType": "string"
+        },
+        "firstName": {
+            "bsonType": "string"
+        },
+        "lastName": {
+            "bsonType": "string"
+        },
+        "orders": {
+            "bsonType": "array",
+            "items": {
+                "bsonType": "string"
+            }
+        },
+        "phone": {
+            "bsonType": "string"
+        },
+        "type": {
+            "bsonType": "string"
+        },
+        "user_id": {
+            "bsonType": "string"
+        }
+    },
+    "title": "User"
+}

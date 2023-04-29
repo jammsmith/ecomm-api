@@ -1,0 +1,9 @@
+{
+    "field_name": "upsertSubCategory",
+    "function_name": "db_upsertSubCategory",
+    "input_type": "SubCategoryUpdateInput",
+    "input_type_format": "generated",
+    "on_type": "Mutation",
+    "payload_type": "SubCategory",
+    "payload_type_format": "generated"
+}

@@ -1,0 +1,9 @@
+{
+    "field_name": "upsertCategory",
+    "function_name": "db_upsertCategory",
+    "input_type": "CategoryUpdateInput",
+    "input_type_format": "generated",
+    "on_type": "Mutation",
+    "payload_type": "Category",
+    "payload_type_format": "generated"
+}

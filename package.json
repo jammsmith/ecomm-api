@@ -1,0 +1,20 @@
+{
+  "name": "melontalbot-api",
+  "version": "1.0.0",
+  "description": "API for MongoDB App Services e-commerce app",
+  "main": "index.js",
+  "engines": {
+    "node": "^18.13.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "James Smith",
+  "license": "ISC",
+  "dependencies": {
+    "@faker-js/faker": "^7.6.0",
+    "dotenv": "^16.0.3",
+    "lodash": "^4.17.21",
+    "mongoose": "^6.9.0"
+  }
+}

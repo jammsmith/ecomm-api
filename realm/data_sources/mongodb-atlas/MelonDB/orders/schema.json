@@ -1,0 +1,59 @@
+{
+    "properties": {
+        "_id": {
+            "bsonType": "objectId"
+        },
+        "currency": {
+            "bsonType": "string"
+        },
+        "customer": {
+            "bsonType": "string"
+        },
+        "dateAccepted": {
+            "bsonType": "date"
+        },
+        "dateCreated": {
+            "bsonType": "date"
+        },
+        "dateDispatched": {
+            "bsonType": "date"
+        },
+        "datePaid": {
+            "bsonType": "date"
+        },
+        "delivery": {
+            "bsonType": "string"
+        },
+        "extraInfo": {
+            "bsonType": "string"
+        },
+        "orderItems": {
+            "bsonType": "array",
+            "items": {
+                "bsonType": "string"
+            }
+        },
+        "orderStatus": {
+            "bsonType": "string"
+        },
+        "order_id": {
+            "bsonType": "string"
+        },
+        "paymentIntentId": {
+            "bsonType": "string"
+        },
+        "paymentStatus": {
+            "bsonType": "string"
+        },
+        "refunds": {
+            "bsonType": "array",
+            "items": {
+                "bsonType": "string"
+            }
+        },
+        "stripeAmountPaid": {
+            "bsonType": "int"
+        }
+    },
+    "title": "Order"
+}

@@ -1,0 +1,8 @@
+{
+    "products": {
+        "ref": "#/relationship/mongodb-atlas/MelonDB/products",
+        "source_key": "products",
+        "foreign_key": "product_id",
+        "is_list": true
+    }
+}

@@ -1,0 +1,9 @@
+{
+    "field_name": "productSearch",
+    "function_name": "db_productSearch",
+    "input_type": "string",
+    "input_type_format": "scalar",
+    "on_type": "Query",
+    "payload_type": "Product",
+    "payload_type_format": "generated-list"
+}

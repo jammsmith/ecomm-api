@@ -1,0 +1,23 @@
+{
+    "properties": {
+        "_id": {
+            "bsonType": "objectId"
+        },
+        "info": {
+            "bsonType": "string"
+        },
+        "order": {
+            "bsonType": "string"
+        },
+        "orderItem_id": {
+            "bsonType": "string"
+        },
+        "product": {
+            "bsonType": "string"
+        },
+        "quantity": {
+            "bsonType": "int"
+        }
+    },
+    "title": "OrderItem"
+}
